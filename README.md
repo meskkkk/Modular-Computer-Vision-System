@@ -1,6 +1,4 @@
-﻿# CV-Toolkit
-
-## Modular Computer Vision System
+﻿# Modular Computer Vision System
 
 This project is a notebook-based computer vision workflow built around a modular image enhancement pipeline. The current notebook implements **Task 1: Selective Object Enhancement**, which detects regions that match a target color, builds a soft mask, sharpens and boosts saturation on the target region, and blurs the background for contrast.
 
