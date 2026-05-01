@@ -21,6 +21,20 @@ This project is a notebook-based computer vision workflow built around a modular
 - `show_triptych()` visualizes the original image, mask, and output.
 - `process_and_display()` loads an image and runs the full demo.
 
+#  Task 5: Panorama Image Stitching Library
+
+##  Task Overview
+Modular computer vision library that stitches multiple overlapping images into a seamless panorama using SIFT, RANSAC homography estimation, and adaptive feather blending.
+
+## Features
+-  SIFT feature detection + Lowe's ratio matching
+-  RANSAC-based homography estimation
+-  Geometric mask-based blending (no black edges)
+-  Auto-cropping to valid content
+-  Sequential multi-image stitching
+-  Fully modular & reusable design
+
+
 ### Requirements
 
 The notebook uses:
